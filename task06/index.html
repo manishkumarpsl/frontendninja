@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontendninja Task06</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div class="font20 bold">Question 20 : What is the difference between inline, inline-block, and block?</div>
+<div class="font20 bold">Answer :</div>
+<div class="font16">
+ <p class="bold">Inline</p>
+	<p>The default value for elements. An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.</p>
+	<p class="bold">Example</p>
+	<p>The default value for elements. <span class="display-inline">An inline element</span> will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.The default value for elements. An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.</p>
+</div>
+
+<div class="font16">
+ <p class="bold">Inline-block</p>
+	<p>An element set to inline-block is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). The difference is that you are able to set a width and height which will be respected.</p>
+	<p class="bold">Example</p>
+	<p>The default value for elements. <span class="display-inline-block">An inline element</span> will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.The default value for elements. An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.</p>
+</div>
+
+<div class="font16">
+ <p class="bold">Block</p>
+	<p>A number of elements are set to block by the browser UA stylesheet. They are usually container elements, like div, section ul. Also text "blocks" like "p" and "h1". Block level elements do not sit inline but break past them. By default (without setting a width) they take up as much horizontal space as they can.</p>
+	<p class="bold">Example</p>
+	<p>The default value for elements. <span class="display-block">An inline element</span> will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.The default value for elements. An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically.</p>
+</div>
+
+<div class="font20 bold">Question 69 : What are some accessibility concerns that come up in CSS?</div>
+<div class="font20 bold">Answer :</div>
+<div class="font16">
+
+</div>
+	<ol>
+		<li>The use of style sheets to provide formatting has several accessibility advantages, including the following:
+			<ul>
+				<li>You can use CSS to improve legibility by increasing line spacing, increasing left and right margins and specifying fonts designed for a monitor.</li>
+				<li>You can replace less accessible image links and JavaScript rollovers with text links styled with CSS. Text links are more accessible because they do not "pixelate" when text is zoomed.</li>
+				<li>Users with colorblindness or in low visibility conditions can implement custom style sheets to enhance contrast and legibility.</li>
+				<li>In some cases, the use of style sheets to specify background colors and borders can improve the accessibility of layouts and decrease reliance on HTML tables for layouts.</li>
+				<li>It is easier to re-design content for alternate media such as printing and mobile technology (e.g. smart phones and Palm pilots) via alternate style sheets.</li>
+			</ul>
+		</li>
+		
+		<li>However, care must be taken that Web sites are still readable on visual browsers with style sheets turned off.</li>
+		
+		<li>CSS commands for specifying absolute font sizes should be avoided. Use relative font sizes instead.</li>
+		
+		<li>Remember that any tag can be styled. This includes accessibility tags such as TH, CAPTION, STRONG, FIELDSET, LABEL, OPTION and SELECT.</li>
+		
+		<li>Avoid using float:right, since it typically requires coders to place elements that will be displayed on the right BEFORE those on the left. Screen readers will read files in code order, not in layout order. A layout table may sometimes be more accessible than complicated CSS layouts.</li>
+		
+		<li>If you use absolute positioning, be sure that the positioned text is in logical order, so that it will be coherent with CSS disabled.</li>
+		
+		<li>Do not use "visibility: hidden" to hide text from visual browsers; it also hides it from screen readers.</li>
+		
+		<li>Style sheet commands should be stored in a separate .css text file, not embedded in the HTML document itself. This allows users to completely override your style sheet.</li>
+		
+	</ol>
+</body>
+</html>

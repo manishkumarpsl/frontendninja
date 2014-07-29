@@ -1,0 +1,33 @@
+
+.display-inline {
+	display: inline;
+	border: solid 1px red;
+}
+
+.display-inline-block {
+	display: inline-block;
+	border: solid 1px red;
+	width: 130px;
+	height: 50px;
+}
+
+.display-block {
+	display: block;
+	border: solid 1px red;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.font20 {
+	font-size: 20px;
+}
+
+.font16 {
+	font-size: 16px;
+}
+
+.font18 {
+	font-size: 18px;
+}
