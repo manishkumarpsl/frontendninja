@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Bower Demo</title>
+	
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/knockout/dist/knockout.js"></script>
+	
+	<script>
+	$( function() {	
+		var dataModel = {
+			name: ko.observable("Manish")
+		};
+		
+		ko.applyBindings(dataModel);		
+	});
+	</script>
+</head>
+
+<body>
+<h3>First Bower Demo</h3>
+
+Name: <span data-bind="text: name"></span>
+<hr>
+<input type="text" data-bind="value: name, valueUpdate: 'afterkeydown' " placeholder="Type Name here">
+</body>
+</html>

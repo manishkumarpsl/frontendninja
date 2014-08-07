@@ -3,3 +3,17 @@ task03/**
 task04/node_modules/*
 task04/css/*
 task07/node_modules/*
+task10/06_Getting_the_Most_Out_of_Knockout_js_hd720.mp4
+task10/bower_components/jquery/src/*
+task10/bower_components/jquery/.bower.json
+task10/bower_components/jquery/bower.json
+task10/bower_components/jquery/MIT-LICENSE.txt
+task10/bower_components/jquery/dist/jquery.min.map
+task10/bower_components/knockout/src/*
+task10/bower_components/knockout/build/*
+task10/bower_components/knockout/.bower.json
+task10/bower_components/knockout/bower.json
+task10/bower_components/knockout/Gruntfile.js
+task10/bower_components/knockout/LICENSE
+task10/bower_components/knockout/package.json
+task10/bower_components/knockout/README.md

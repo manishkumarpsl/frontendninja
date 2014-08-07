@@ -7,10 +7,49 @@
 
 		npm install -g bower
 		
-2) Understand bower init
+2) Understand bower init - initialize bower
+		bower init
+	- Follow the same options as follows
+		 May bower anonymously report usage statistics to improve the tool over time? Yes
+		 name: task10
+		 version: 0.0.0
+		 description: first bower project
+		 main file:
+		 what types of modules does this package expose? globals
+		 keywords:
+		 authors: Manish <manish_kumar@persistent.co.in>
+		 license: MIT
+		 homepage: https://github.com/manishkumarpsl/frontendninja
+		 set currently installed components as dependencies? Yes
+		 add commonly ignored files to ignore list? Yes
+		 would you like to mark this package as private which prevents it from being accidentally published to the registry? Yes
+		 
+	- Now it will create bower.json file nad content will be following :
+		{
+		  "name": "task10",
+		  "version": "0.0.0",
+		  "homepage": "https://github.com/manishkumarpsl/frontendninja",
+		  "authors": [
+			"Manish <manish_kumar@persistent.co.in>"
+		  ],
+		  "description": "first bower project",
+		  "moduleType": [
+			"globals"
+		  ],
+		  "license": "MIT",
+		  "private": true,
+		  "ignore": [
+			"**/.*",
+			"node_modules",
+			"bower_components",
+			"test",
+			"tests"
+		  ]
+		}
 
 3) Install jquery
-
+	bower install --save jquery
+	
 4) Check jquery path
 
 	bower list --paths
@@ -20,8 +59,10 @@
 6) Install http-server (npm module)
 
 	npm install -g http-server
+	
+	- to start http server
 		
-
+		http-server -v
 
 5) Learn observables concept from KnockoutJS using the presentations below:
 	KnockoutJS presentations
